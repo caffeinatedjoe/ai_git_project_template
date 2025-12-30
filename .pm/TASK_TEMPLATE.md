@@ -3,7 +3,7 @@ id: TASK-XXX
 status: todo
 priority: medium
 estimate: 3
-owner: unassigned
+owner: ai
 depends_on: []
 ---
 
