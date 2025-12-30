@@ -1,6 +1,6 @@
 ---
 id: TASK-002
-status: todo
+status: done
 priority: medium
 estimate: 2
 owner: ai
