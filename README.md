@@ -14,6 +14,12 @@ checkpoints, and Markdown as the source of truth.
 - Provide a full application scaffold or opinionated tech stack.
 - Encode product requirements beyond the workflow template.
 
+## Getting Started
+- **New to the template?** Read the [Human Onboarding Guide](notes/guides/onboarding.md) for a quick overview.
+- Review `AGENTS.md` for workflow rules.
+- Create your first task in `.pm/backlog/`.
+- Run the board generator and commit changes.
+
 ## Repository Layout
 ```
 ai_git_project_template/
@@ -26,6 +32,10 @@ ai_git_project_template/
 │   ├── SPRINTS.md
 │   └── TASK_TEMPLATE.md
 ├── agents/                 # Agent role definitions
+├── notes/
+│   ├── guides/             # Onboarding and reference guides
+│   ├── sessions/           # Meeting notes and brainstorming sessions
+│   └── templates/          # Reusable note templates
 ├── src/                    # Application source (placeholder)
 ├── tests/                  # Test suite (placeholder)
 ├── .kilocodemodes          # KiloCode-only mode config (remove elsewhere)
@@ -55,8 +65,3 @@ it doesn’t ship elsewhere:
 - Remove `.kilocodemodes` during project initialization for non-KiloCode repos.
 - Add a simple CI check (or pre-commit hook) that fails if `.kilocodemodes` is
   present in repositories that are not explicitly marked as KiloCode projects.
-
-## Getting Started
-- Review `AGENTS.md` for workflow rules.
-- Create your first task in `.pm/backlog/`.
-- Run the board generator and commit changes.
