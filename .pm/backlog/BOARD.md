@@ -3,6 +3,7 @@
 
 ## Todo
 - [TASK-000](./000-project-setup.md) Project Setup (prio: high, owner: ai)
+- [TASK-004](./004-interview-agent.md) Create interview agent for project discovery (prio: medium, owner: ai)
 
 ## In Progress
 - (none)
